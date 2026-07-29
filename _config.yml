@@ -1,3 +1,5 @@
+# FROM NOW ON: https://github.com/pages-themes/minimal
+
 theme: minima
 plugins:
   - jekyll-feed
