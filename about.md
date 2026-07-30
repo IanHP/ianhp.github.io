@@ -3,5 +3,5 @@ title: About
 layout: default
 ---
 
-<h1>{{ "About Page" | downcase }}</h1>
+# {{ "About Page" | downcase }}
 Hello this is about
