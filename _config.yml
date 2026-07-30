@@ -1,7 +1,7 @@
-# FROM NOW ON: https://github.com/pages-themes/minimal
-
-theme: minima
+remote_theme: pages-themes/minimal@v0.2.0
 plugins:
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-seo-tag
+- jekyll-remote-theme # add this line to the plugins list if you already have one
+
+title: Ian's Portfolio Site
+description: A site highlighting different project's I have worked on
+
