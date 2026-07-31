@@ -1,0 +1,39 @@
+nav {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+
+}
+nav a {
+  display: inline-flex;
+  flex-direction: column;
+  text-align: center;
+  white-space: nowrap;
+}
+nav a::after {
+  content: attr(data-name);
+  font-weight: bold;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+.smooth {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 2rem 0;
+}
+.base_nav { 
+    color: #005F7F; 
+    text-decoration: none; 
+}
+.base_nav:hover {
+    color: #005F7F;
+    font-weight: bold;
+}
+.current {
+    color: green;
+}
+.current:hover {
+    color: green;
+    font-weight: bold;
+}

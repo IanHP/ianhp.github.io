@@ -1,7 +1,7 @@
 ---
-title: Home
+title: Minecraft Programming
 layout: default
 ---
 
 # {{ page.title }}
-Hello this is home
+mineraft

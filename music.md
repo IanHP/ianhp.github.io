@@ -1,7 +1,7 @@
 ---
-title: Home
+title: Music Journalism
 layout: default
 ---
 
 # {{ page.title }}
-Hello this is home
+musc

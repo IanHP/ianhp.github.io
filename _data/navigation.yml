@@ -1,4 +1,8 @@
 - name: Home
   link: /
-- name: About
-  link: /about.html
+- name: Biology Research
+  link: /research.html
+- name: Minecraft Programming
+  link: /minecraft.html
+- name: Music Journalism
+  link: /music.html

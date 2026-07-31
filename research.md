@@ -1,7 +1,7 @@
 ---
-title: Home
+title: Biology Research
 layout: default
 ---
 
 # {{ page.title }}
-Hello this is home
+biolog
