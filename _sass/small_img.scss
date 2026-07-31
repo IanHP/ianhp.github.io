@@ -1,0 +1,41 @@
+    * { box-sizing: border-box; }
+
+    .small_img-main {
+      max-width: var(--max);
+      margin: 0 auto;
+    }
+
+    /* 1. Photo */
+    .small_img-img {
+      display: block;
+      width: 100%;
+      height: auto;
+      border-radius: 4px;
+    }
+
+    /* 2. Big descriptor title */
+    .small_img-title {
+      line-height: 1.1;
+      letter-spacing: -0.02em;
+      margin: 32px 0 0;
+      text-align: center;
+    }
+
+    /* thin rule to separate title from body */
+    .small_img-title::after {
+      content: "";
+      display: block;
+      width: 56px;
+      height: 3px;
+      background: var(--ink);
+      margin-top: 20px;
+    }
+
+    /* 3. Text beneath */
+    .small_img-description {
+      margin-top: 24px;
+    }
+
+    .small_img-description p {
+      margin: 0 0 1.2em;
+    }

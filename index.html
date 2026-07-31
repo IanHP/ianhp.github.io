@@ -1,0 +1,16 @@
+---
+title: Home
+layout: default
+---
+
+<h1>Ian Herzog-Pohl</h1>
+{% include profile.html content="This is where text about profile will be placed"%}
+{% include line.html %}
+
+{% capture col1_val %}
+  {% include small_photo.html photo="/assets/img/random_royale.png" title="Biology Research" link="/research.html"%}
+{% endcapture %}
+{% capture col2_val %}
+  {% include small_photo.html photo="/assets/img/stm.png" title="Minecraft Programming" link="/minecraft.html"%}
+{% endcapture %}
+{% include two_col.html col1=col1_val col2=col2_val%}

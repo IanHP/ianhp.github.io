@@ -1,7 +1,0 @@
----
-title: Home
-layout: default
----
-
-# {{ page.title }}
-Hello this is home

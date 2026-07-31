@@ -1,6 +1,7 @@
 ---
 ---
-
+@import "{{ site.theme }}";
 @import "main";
 @import "nav";
-@import "{{ site.theme }}";
+@import "small_img";
+@import "two_col";
