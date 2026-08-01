@@ -4,13 +4,35 @@ layout: default
 ---
 
 <h1>Ian Herzog-Pohl</h1>
-{% include profile.html content="This is where text about profile will be placed"%}
+{% capture profile_text %}
+<p>My name is Ian Herzog-Pohl -- I am a senior majoring in computational biology,
+minoring in history and physics at the University of Pittsburgh. My main focus
+is in computational structural biology, though I have an interest in all molecular
+biology, learning how macroscopic biology connects to base physical and chemical principles
+at the molecular level.</p>
+<p>However, I also enjoy programming personal projects, especially creating games and "add-ons"
+for Minecraft. Recently, as a way to get more involved in the local music scene and a chance
+to express a more creative side of myself, I have also gotten involved in music journalism with 
+Deja, a local arts magazine
+</p>
+{% endcapture %}
+{% include profile.html image='/assets/img/profile.jpg' content=profile_text%}
 {% include line.html %}
 
+{% capture col1_desc %}
+  <p>My main passion (and future career aspiration) is in computational molecular biology, and
+    I have worked on projects in that field since 2023. Here you can find all of the different biology projects I have worked on
+    since 2023</p>
+{% endcapture %}
 {% capture col1_val %}
-  {% include small_photo.html photo="/assets/img/random_royale.png" title="Biology Research" link="/research.html"%}
+  {% include small_photo.html photo="/assets/img/mthfr.png" title="Biology Research" link="/research.html" desc=col1_desc%}
+{% endcapture %}
+{% capture col2_desc %}
+  <p>Throughout high school, my main programing projects were inside
+    minecraft using it's inbuild language to create games and mods.
+    Here are all of the projects I worked on.</p>
 {% endcapture %}
 {% capture col2_val %}
-  {% include small_photo.html photo="/assets/img/stm.png" title="Minecraft Programming" link="/minecraft.html"%}
+  {% include small_photo.html photo="/assets/img/random_royale.png" title="Minecraft Programming" link="/minecraft.html" desc=col2_desc%}
 {% endcapture %}
 {% include two_col.html col1=col1_val col2=col2_val%}

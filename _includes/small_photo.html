@@ -1,3 +1,12 @@
+
+<!-- 
+  @component Small Photo + Desc Subsection
+  @description Image, clickable title below, then description
+  @param {image path} photo - image placed on top
+  @param {URL / HTML path} link - link clicking text leads to
+  @param {string} title - the title of subsection
+  @param {html} desc - the dsecription of subsection
+-->
 <html lang="en">
 <body>
   <article class="small_img-main">
@@ -10,10 +19,7 @@
 
     <!-- 3. Text beneath -->
     <div class="small_img-description">
-      <p>Your text goes here. This paragraph sits below the title and holds
-         the main description. Replace it with whatever you want to say.</p>
-      <p>Add as many paragraphs as you like — they'll stack neatly beneath
-         the title, all within the same centered column.</p>
+      {{ include.desc }}
     </div>
 
   </article>

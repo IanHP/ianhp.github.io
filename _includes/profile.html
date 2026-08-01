@@ -1,5 +1,12 @@
+
+<!-- 
+  @component Profile Subsection
+  @description Puts image on left screen, puts text on right wrapping around
+  @param {image path} image - image placed on right
+  @param {HTML} content - text to right of image
+-->
 <div style="display: flex; gap: 20px; align-items: flex-start;">
-  <img src="{{ '/assets/img/profile.jpg' | relative_url }}" alt="description" width="200">
+  <img src="{{ include.image | relative_url }}" alt="description" width="200">
   <div>
     {{ include.content }}
   </div>

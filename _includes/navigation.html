@@ -1,3 +1,8 @@
+
+<!-- 
+  @component Navigation Bar
+  @description Creates a navigation bar in top right of screen
+-->
 <nav>
   {% for item in site.data.navigation %}
     <a href="{{ item.link }}" data-name="{{ item.name }}"{% if item.link == page.url %} class="current" {% else %} class="base_nav" {% endif %}>
