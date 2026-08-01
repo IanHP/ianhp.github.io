@@ -7,21 +7,17 @@
   @param {string} title - the title of subsection
   @param {html} desc - the dsecription of subsection
 -->
-<html lang="en">
-<body>
-  <article class="small_img-main">
+<article class="small_img-main">
 
-    <!-- 1. Photo -->
-    <img src="{{ include.photo }}" alt="Describe the photo here" class="small_img-img">
+  <!-- 1. Photo -->
+  <img src="{{ include.photo }}" alt="Describe the photo here" class="small_img-img">
 
-    <!-- 2. Big descriptor title -->
-    <h1 class="small_img-title"><a href="{{ include.link}}">{{ include.title }}</a></h1>
+  <!-- 2. Big descriptor title -->
+  <h1 class="small_img-title"><a href="{{ include.link }}">{{ include.title }}</a></h1>
 
-    <!-- 3. Text beneath -->
-    <div class="small_img-description">
-      {{ include.desc }}
-    </div>
+  <!-- 3. Text beneath -->
+  <div class="small_img-description">
+    {{ include.desc }}
+  </div>
 
-  </article>
-</body>
-</html>
+</article>

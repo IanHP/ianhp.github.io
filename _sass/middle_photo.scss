@@ -1,11 +1,22 @@
-
-.small_img-main {
-  margin: 0 auto;
+.middle_photo-page {
   box-sizing: border-box;
+  margin: 0;
+  padding: 48px 24px;
+  line-height: 1.7;
+  background: #fdfdfb;
+ 
+  /* center the column horizontally on the page */
+  display: flex;
+  justify-content: center;
+}
+ 
+.middle_photo-column {
+  box-sizing: border-box;
+  width: 340px;
 }
 
 /* 1. Photo */
-.small_img-img {
+.middle_photo-column-image {
   display: block;
   width: 100%;
   height: auto;
@@ -13,7 +24,7 @@
 }
 
 /* 2. Big descriptor title */
-.small_img-title {
+.middle_photo-column-title {
   line-height: 1.1;
   letter-spacing: -0.02em;
   margin: 10px 0 0;
@@ -22,7 +33,7 @@
 }
 
 /* thin rule to separate title from body */
-.small_img-title::after {
+.middle_photo-column-title::after {
   content: "";
   display: block;
   width: 56px;
@@ -32,11 +43,11 @@
 }
 
 /* 3. Text beneath */
-.small_img-description {
+.middle_photo-column-text {
   margin-top: 12px;
   text-align: center;
 }
 
-.small_img-description p {
+.middle_photo-column-text p {
   margin: 0 0 1.2em;
 }

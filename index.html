@@ -36,3 +36,11 @@ Deja, a local arts magazine
   {% include small_photo.html photo="/assets/img/random_royale.png" title="Minecraft Programming" link="/minecraft.html" desc=col2_desc%}
 {% endcapture %}
 {% include two_col.html col1=col1_val col2=col2_val%}
+
+{% capture desc %}
+    <p>This is the single centered column. It's the same width as one of
+       the columns from the two-column layout, and it sits in the middle
+       of the page.</p>
+{% endcapture %}
+
+{% include middle_photo.html photo="/assets/img/music.webp" link="/music.html" desc=desc%}
