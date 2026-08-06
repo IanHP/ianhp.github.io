@@ -17,23 +17,19 @@ nav a::after {
   overflow: hidden;
   visibility: hidden;
 }
-.smooth {
+.nav-title {
+  margin: 0;
+  margin-right: auto;
+}
+.nav-smooth {
   border: none;
   border-top: 1px solid #ddd;
   margin: 2rem 0;
 }
-.base_nav { 
-    color: #005F7F; 
-    text-decoration: none; 
-}
-.base_nav:hover {
-    color: #005F7F;
-    font-weight: bold;
-}
-.current {
+.nav-current {
     color: green;
 }
-.current:hover {
+.nav-current:hover {
     color: green;
     font-weight: bold;
 }
