@@ -4,37 +4,20 @@ layout: default
 ---
 
 <!-- The overall description + me photo -->
-{% capture profile_text %}
-<p>My name is Ian Herzog-Pohl -- I am a senior majoring in computational biology,
-minoring in history and physics at the University of Pittsburgh. My main focus
-is in computational structural biology, though I have an interest in all molecular
-biology, learning how macroscopic biology connects to base physical and chemical principles
-at the molecular level.</p>
-<p>However, I also enjoy programming personal projects, especially creating games and "add-ons"
-for Minecraft. Recently, as a way to get more involved in the local music scene and a chance
-to express a more creative side of myself, I have also gotten involved in music journalism with 
-Deja, a local arts magazine
-</p>
-{% endcapture %}
-{% include profile.html image='/assets/img/profile.jpg' content=profile_text%}
+{% include cols.html cols=site.data.main.row0 %}
 {% include line.html %}
 
 <!-- Comp bio + Minecraft Programming -->
 {% include cols.html cols=site.data.main.row1 %}
 
 <!-- Music Journalism -->
-{% capture desc %}
-    <p>Starting in 2025, I have been working at a local arts magazine called Deja, writing
-      interview editorials on different local bands. Here are the different articles I have
-      written!
-    </p>
-{% endcapture %}
-{% include middle_photo.html photo="/assets/img/music.webp" link="/music.html" desc=desc%}
+{% include cols.html cols=site.data.main.row2 %}
 {% include line.html %}
 
 <!-- Current Projects -->
 {% include center_title.html title="Most Recent Projects" %}
 {% include cols.html cols=site.data.main.row3 %}
+{% include line.html %}
 
 
 

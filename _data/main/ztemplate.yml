@@ -1,0 +1,15 @@
+# For small_photo / middle_photo
+- type: "small_photo"
+  photo: "/assets/img/"
+  title: ""
+  link: ""
+  desc: | 
+    w
+
+# for profile
+- type: "profile"
+  photo: "/assets/img/"
+  desc: | 
+    w
+
+# for more

@@ -6,8 +6,8 @@
   @param {HTML} content - text to right of image
 -->
 <div style="display: flex; gap: 20px; align-items: flex-start;">
-  <img src="{{ include.image | relative_url }}" alt="description" width="200">
+  <img src="{{ include.photo | relative_url }}" alt="description" width="200">
   <div>
-    {{ include.content }}
+    {{ include.desc | markdownify}}
   </div>
 </div>
