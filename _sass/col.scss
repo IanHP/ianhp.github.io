@@ -1,8 +1,8 @@
-.two_col-main {
+.col-main {
   display: flex;
   gap: 40px;
   align-items: flex-start;   /* tops line up instead of stretching */
 }
-.two_col-main .col {
+.col-main .col {
   flex: 1;                   /* each column takes an equal half */
 }

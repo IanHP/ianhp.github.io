@@ -3,6 +3,7 @@ title: Home
 layout: default
 ---
 
+<!-- The overall description + me photo -->
 {% capture profile_text %}
 <p>My name is Ian Herzog-Pohl -- I am a senior majoring in computational biology,
 minoring in history and physics at the University of Pittsburgh. My main focus
@@ -18,6 +19,7 @@ Deja, a local arts magazine
 {% include profile.html image='/assets/img/profile.jpg' content=profile_text%}
 {% include line.html %}
 
+<!-- Comp bio + Minecraft Programming -->
 {% capture col1_desc %}
   <p>My main passion (and future career aspiration) is in computational molecular biology, and
     I have worked on projects in that field since 2023. Here you can find all of the different biology projects I have worked on
@@ -36,10 +38,41 @@ Deja, a local arts magazine
 {% endcapture %}
 {% include two_col.html col1=col1_val col2=col2_val%}
 
+<!-- Music Journalism -->
 {% capture desc %}
-    <p>This is the single centered column. It's the same width as one of
-       the columns from the two-column layout, and it sits in the middle
-       of the page.</p>
+    <p>Starting in 2025, I have been working at a local arts magazine called Deja, writing
+      interview editorials on different local bands. Here are the different articles I have
+      written!
+    </p>
 {% endcapture %}
-
 {% include middle_photo.html photo="/assets/img/music.webp" link="/music.html" desc=desc%}
+{% include line.html %}
+
+<!-- Current Projects -->
+{% include center_title.html title="Current Projects" %}
+{% capture col1_desc %}
+  <p>Research project I used structure based computer aided drug
+    design to create some canidate amyloid inhibitors for the FapC fibril.
+  </p>
+{% endcapture %}
+{% capture col1_val %}
+  {% include small_photo.html photo="/assets/img/mthfr.png" title="FapC CADD" link="/research.html" desc=col1_desc%}
+{% endcapture %}
+{% capture col2_desc %}
+  <p>Article I wrote about the local Pittsburgh rock band Zinnia's Garden, highlighting
+    the importance of an internal and external community for them, and any band.
+  </p>
+{% endcapture %}
+{% capture col2_val %}
+  {% include small_photo.html photo="/assets/img/zinnia_garden.jpg" title="Zinnia's Garden Intv" link="/music.html" desc=col2_desc%}
+{% endcapture %}
+{% capture col3_desc %}
+  <p>Research project where I analyzed the impacts of pH changes on a predicted PrsA2+LLO structure
+    in <i>Listeria monocytogenes</i> using MD simulations.
+  </p>
+{% endcapture %}
+{% capture col3_val %}
+  {% include small_photo.html photo="/assets/img/random_royale.png" title="Prsa2 LLO Project" link="/research.html" desc=col3_desc%}
+{% endcapture %}
+{% include three_col.html col1=col1_val col2=col2_val col3=col3_val%}
+
