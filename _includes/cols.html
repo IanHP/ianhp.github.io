@@ -1,0 +1,7 @@
+<div class="col-main photo-row">
+  {% for item in {{include.cols}} %}
+    <div class="col">
+      {% include small_photo.html photo=item.photo link=item.link title=item.title desc=item.desc %}
+    </div>
+  {% endfor %}
+</div>

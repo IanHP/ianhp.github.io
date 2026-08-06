@@ -1,0 +1,21 @@
+- type: "small_photo"
+  photo: "/assets/img/mthfr.png"
+  title: "FapC CADD"
+  link: "/research.html"
+  desc: | 
+    Research project I used structure based computer aided drug
+    design to create some canidate amyloid inhibitors for the FapC fibril.
+- type: small_photo
+  photo: "/assets/img/zinnia_garden.jpg"
+  title: "Zinnia's Garden Intv"
+  link: "/music.html"
+  desc: |
+    Article I wrote about the local Pittsburgh rock band Zinnia's Garden, highlighting
+    the importance of an internal and external community for them, and any band.
+- type: "small_photo"
+  photo: "/assets/img/random_royale.png"
+  title: "Prsa2 LLO Project"
+  link: "/research.html"
+  desc: |
+    Research project where I analyzed the impacts of pH changes on a predicted PrsA2+LLO structure
+    in *Listeria monocytogenes* using MD simulations.

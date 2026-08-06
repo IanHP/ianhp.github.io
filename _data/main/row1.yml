@@ -1,0 +1,16 @@
+- type: "small_photo"
+  photo: "/assets/img/mthfr.png"
+  title: "Biology Research"
+  link: "/research.html"
+  desc: | 
+    My main passion (and future career aspiration) is in computational molecular biology
+    , and I have worked on projects in that field since 2023. Here you can find all of the 
+    different biology projects I have worked on since 2023
+- type: small_photo
+  photo: "/assets/img/random_royale.png"
+  title: "Minecraft Programming"
+  link: /minecraft.html"
+  desc: |
+    Throughout high school, my main programing projects were inside
+    minecraft using it's inbuild language to create games and mods.
+    Here are all of the projects I worked on.
