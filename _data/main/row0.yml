@@ -1,5 +1,7 @@
 - type: "profile"
   photo: "/assets/img/profile.jpg"
+  width: 200
+  rev: false
   desc: | 
     My name is Ian Herzog-Pohl -- I am a senior majoring in computational biology,
     minoring in history and physics at the University of Pittsburgh. My main focus

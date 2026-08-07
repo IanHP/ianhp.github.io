@@ -1,0 +1,19 @@
+- type: "profile"
+  photo: "/assets/img/fapc_vs.jpg"
+  rev: false
+  width: 400
+  desc: | 
+    June - July 2026  
+    [Durrant Lab at The University of Pittsburgh](https://durrantlab.pitt.edu/)
+
+    I worked on finding potential biofilm inhibitors for the bactieria *Pseudomonas
+    aeriginosa* as its biofilm allows the bacteria to often gain antibiotic resistance.
+    I used a structure-based computed aided drug design (CADD) pathway, which uses a protein
+    structure of a key structraul component of the biofilm (FapC, a functional amyloid)
+    and structures of millions of potential small-molecule inhbitors. I then used
+    CADD software to predict interaction strength, taking the top 40 to be experimentally
+    validated.
+
+    Find the github repo [here](https://github.com/durrantlab/FapC_VS)
+  
+    Thank you to Nacef Guessaymi, Dr. Jacob Durrant your invaluable advice during this project!

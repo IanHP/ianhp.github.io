@@ -1,0 +1,19 @@
+- type: "profile"
+  photo: "/assets/img/mthfr.png"
+  rev: false
+  width: 400
+  desc: | 
+    January - December 2025  
+    [Roth Lab at The University of Pittsburgh](http://llama.mshri.on.ca/index.html)
+
+    I worked on finding structural explanation for how certain MTHFR mutations
+    have negative impacts on function. I found these mutations using the labs
+    varient effect maps and a structural stability predictor, finding mutation
+    with low functionality but high structural stability, implying a functional 
+    impact comes from a more interesting cause. I then ran all atom MD simulations
+    on the mutated protein and wild type, then compared cofactor stability.
+
+    Find my final presentation [here](https://docs.google.com/presentation/d/1W-v-Tq-XfzvTr4fkdkGNQQuLjuMPT8_QDL6lJRLIM1Y/edit?usp=sharing)
+  
+    Thank you to Dr. Zeynep Yilmaz, Dr. Warren van Loggerenberg and Dr. Fritz Roth for your help
+    and advice!

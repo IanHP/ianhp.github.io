@@ -4,10 +4,19 @@
   @description Puts image on left screen, puts text on right wrapping around
   @param {image path} image - image placed on right
   @param {HTML} content - text to right of image
+  @param {int} width - how wide the photo is meant to be
+  @param {bool} rev - if the profile should be in reverse order or not
 -->
 <div style="display: flex; gap: 20px; align-items: flex-start;">
-  <img src="{{ include.photo | relative_url }}" alt="description" width="200">
+  {% if include.rev == false %}
+  <img src="{{ include.photo | relative_url }}" alt="description" width="{{ include.width }}">
   <div>
     {{ include.desc | markdownify}}
   </div>
+  {% else %}
+  <div>
+    {{ include.desc | markdownify}}
+  </div>
+  <img src="{{ include.photo | relative_url }}" alt="description" width="{{ include.width }}">
+  {% endif %}
 </div>

@@ -1,0 +1,17 @@
+- type: "profile"
+  photo: "/assets/img/cyp4.jpg"
+  rev: true
+  width: 400
+  desc: | 
+    January - May 2024  
+    [Koes Lab at The University of Pittsburgh](https://bits.csb.pitt.edu/)
+
+    In the second semester of my freshman year, I worked in the Koes Lab on the
+    cytochrome p450 family. We predicted protein structures of mutants, combining
+    the primary sequences of two different members of the family, then ran all atom
+    MD simulations to measure certain metrics. This data was then given to a 
+    lab that specilizes in this family to help them build a model for how these
+    proteins work.
+
+    Thank you to Dr. Somayeh Pirhadi and Dr. David Ryan Koes for your help
+    during this project!

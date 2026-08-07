@@ -6,7 +6,7 @@
       {% elsif item.type == "middle_photo" %}
       {% include middle_photo.html photo=item.photo link=item.link title=item.title desc=item.desc %}
       {% elsif item.type == "profile" %}
-      {% include profile.html photo=item.photo desc=item.desc %}
+      {% include profile.html photo=item.photo desc=item.desc width=item.width rev=item.rev%}
       
       {% endif %}
     </div>

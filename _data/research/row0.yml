@@ -1,0 +1,17 @@
+- type: "profile"
+  photo: "/assets/img/ionerdss.png"
+  rev: false
+  width: 400
+  desc: | 
+    March - May 2023  
+    [Johnson Group at Johns Hopkins](https://sites.krieger.jhu.edu/johnson-lab/)
+
+    In my last trimester of high school, I completed a senior project where
+    I worked on their python package ioNERDSS that creates inputs and analyzes
+    outputs for their course-grained simulation program NERDSS. I worked to generally improve
+    the efficinecy, readability, and documentation for the package.
+
+    Find the package here: [pypi](https://pypi.org/project/ioNERDSS/) and [github](https://github.com/JohnsonBiophysicsLab/ionerdss)  
+    Find the preprint here: [biorxv](https://www.biorxiv.org/content/10.64898/2026.01.27.702082v2)
+
+    Thank you to Dr. Yiben Fu and Dr. Margaret Johnson for your invaluable mentorship!

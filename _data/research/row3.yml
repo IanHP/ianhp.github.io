@@ -1,0 +1,16 @@
+- type: "profile"
+  photo: "/assets/img/prsa2_llo.jpg"
+  rev: true
+  width: 400
+  desc: | 
+    January - May 2026  
+    [Durrant Lab at The University of Pittsburgh](https://durrantlab.pitt.edu/)
+
+    I worked on finding structural explanation for how the PrsA2 and LLO complex
+    inside *Listeria monocytogenes* dissociates in lower pH conditions. Using 
+    MD simulations already completed by the lab, I filtered and analyzed residue
+    interactions to determine potential key changing interactions.
+  
+    Find the github repo [here](https://github.com/durrantlab/Lm-PrsA2-LLO)
+
+    Thank you to Dr. Alex Maldanado, Dr. Jacob Durrant your invaluable advice during this project!
