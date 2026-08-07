@@ -1,7 +1,7 @@
 - type: "small_photo"
-  photo: "/assets/img/mthfr.png"
+  photo: "/assets/img/fapc_vs.jpg"
   title: "FapC CADD"
-  link: "/research.html"
+  link: "/research.html#fapc_vs"
   desc: | 
     Finished in July 2026:  
     Research project I used structure based computer aided drug
@@ -15,9 +15,9 @@
     Article I wrote about the local Pittsburgh rock band Zinnia's Garden, highlighting
     the importance of an internal and external community for them, and any band.
 - type: "small_photo"
-  photo: "/assets/img/random_royale.png"
+  photo: "/assets/img/prsa2_llo.jpg"
   title: "Prsa2 LLO Project"
-  link: "/research.html"
+  link: "/research.html#prsa2_llo"
   desc: |
     Finished in May 2026:  
     Research project where I analyzed the impacts of pH changes on a predicted PrsA2+LLO structure
