@@ -10,7 +10,7 @@
 <article class="small_img-main">
 
   <!-- 1. Photo -->
-  <img src="{{ include.photo }}" alt="Describe the photo here" class="small_img-img">
+  {% include img.html photo=include.photo credit=include.credit %}
 
   <!-- 2. Big descriptor title -->
   <h1 class="small_img-title"><a href="{{ include.link }}">{{ include.title }}</a></h1>

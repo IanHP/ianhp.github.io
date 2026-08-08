@@ -1,7 +1,7 @@
 <div class="middle_photo-page">
 
   <div class="middle_photo-column">
-    <img src= "{{ include.photo }}" alt="Describe the photo here" class="middle_photo-column-image">
+    {% include img.html photo=include.photo credit=include.credit %}
     <h1 class="middle_photo-column-title"><a href="{{ include.link}}">{{ include.title}}</a></h1>
     <div class="middle_photo-column-text">
       {{ include.desc | markdownify}}

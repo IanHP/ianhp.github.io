@@ -2,9 +2,9 @@
   {% for item in {{include.cols}} %}
     <div class="col">
       {% if item.type == "small_photo" %}
-      {% include small_photo.html photo=item.photo link=item.link title=item.title desc=item.desc %}
+      {% include small_photo.html photo=item.photo link=item.link title=item.title desc=item.desc credit=item.credit%}
       {% elsif item.type == "middle_photo" %}
-      {% include middle_photo.html photo=item.photo link=item.link title=item.title desc=item.desc %}
+      {% include middle_photo.html photo=item.photo link=item.link title=item.title desc=item.desc credit=item.credit %}
       {% elsif item.type == "profile" %}
       {% include profile.html photo=item.photo desc=item.desc width=item.width rev=item.rev%}
       

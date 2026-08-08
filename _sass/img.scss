@@ -1,0 +1,24 @@
+.img-credited {
+  position: relative;
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
+  border-radius: 4px;
+}
+.img-credited img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+.img-credited figcaption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.25);
+  color: #fff;
+  font-size: 0.75rem;
+  padding: 4px 8px;
+  text-align: right;
+}
