@@ -10,14 +10,14 @@
 <article class="small_img-main">
 
   <!-- 1. Photo -->
-  {% include img.html photo=include.photo credit=include.credit %}
+  {% include img.html photo=include.cont.photo credit=include.cont.credit %}
 
   <!-- 2. Big descriptor title -->
-  <h1 class="small_img-title"><a href="{{ include.link }}">{{ include.title }}</a></h1>
+  <h1 class="small_img-title"><a href="{{ include.cont.link }}">{{ include.cont.title }}</a></h1>
 
   <!-- 3. Text beneath -->
   <div class="small_img-description">
-    {{ include.desc | markdownify }}
+    {{ include.cont.desc | markdownify }}
   </div>
 
 </article>

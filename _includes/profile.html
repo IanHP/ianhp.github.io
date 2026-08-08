@@ -8,15 +8,15 @@
   @param {bool} rev - if the profile should be in reverse order or not
 -->
 <div style="display: flex; gap: 20px; align-items: flex-start;">
-  {% if include.rev == false %}
-  <img src="{{ include.photo | relative_url }}" alt="description" width="{{ include.width }}">
+  {% if include.cont.rev == false %}
+  <img src="{{ include.cont.photo | relative_url }}" alt="description" width="{{ include.cont.width }}">
   <div>
-    {{ include.desc | markdownify}}
+    {{ include.cont.desc | markdownify}}
   </div>
   {% else %}
   <div>
-    {{ include.desc | markdownify}}
+    {{ include.cont.desc | markdownify}}
   </div>
-  <img src="{{ include.photo | relative_url }}" alt="description" width="{{ include.width }}">
+  <img src="{{ include.cont.photo | relative_url }}" alt="description" width="{{ include.cont.width }}">
   {% endif %}
 </div>
