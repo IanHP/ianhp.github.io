@@ -20,6 +20,9 @@ a { color: #006fa7; text-decoration: none; font-weight: normal;}
 
 a:hover, a:focus {color: #006fa7; text-decoration: underline; font-weight: bold;}
 
+a.white { color: white; text-decoration: underline; font-weight: normal;}
+a.white:hover, a.white:focus {color: white; text-decoration: underline; font-weight: bold;}
+
 a small { font-size: 11px; color: #777; margin-top: -0.3em; display: block; }
 
 a:hover small { color: #777; }

@@ -1,8 +1,8 @@
-{% if include.credit %}
+{% if include.cont.credit %}
 <figure class="img-credited">
-    <img src= "{{ include.photo }}" alt="Describe the photo here">
-    <figcaption>Photo Credit: {{include.credit}} </figcaption>
+    <img src= "{{ include.cont.photo }}" alt="Describe the photo here">
+    <figcaption>Photo Credit: <a class="white" href={{include.cont.credit_link}}>{{include.cont.credit}}</a></figcaption>
 </figure>
 {% else %}
-<img src= "{{ include.photo }}" alt="Describe the photo here" class="img-base">
+<img src= "{{ include.cont.photo }}" alt="Describe the photo here" class="img-base">
 {% endif %}

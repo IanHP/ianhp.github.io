@@ -1,7 +1,7 @@
 <div class="middle_photo-page">
 
   <div class="middle_photo-column">
-    {% include img.html photo=include.cont.photo credit=include.cont.credit %}
+  {% include img.html cont=include.cont %}
     <h1 class="middle_photo-column-title"><a href="{{ include.cont.link}}">{{ include.cont.title}}</a></h1>
     <div class="middle_photo-column-text">
       {{ include.cont.desc | markdownify}}
