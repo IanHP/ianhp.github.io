@@ -8,7 +8,7 @@ function equalizeHeights() {
   const rows = document.querySelectorAll('.photo-row');
 
   rows.forEach(row => {
-    const imgs = row.querySelectorAll('img');   // only this row's images
+    const imgs = row.querySelectorAll('img.adjust');   // only this row's images
     imgs.forEach(img => img.style.height = 'auto');   // reset
 
     let min = Infinity;

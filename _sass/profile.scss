@@ -1,0 +1,13 @@
+.profile-img-left {
+  float: left;
+  margin: 0 20px 10px 0;   /* space to the right and below */
+}
+.profile-img-right {
+  float: right;
+  margin: 0 0 10px 20px;   /* space to the left and below */
+}
+.profile::after {          /* clear the float so following content sits below */
+  content: "";
+  display: block;
+  clear: both;
+}

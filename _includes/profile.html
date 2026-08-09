@@ -7,16 +7,13 @@
   @param {int} width - how wide the photo is meant to be
   @param {bool} rev - if the profile should be in reverse order or not
 -->
-<div style="display: flex; gap: 20px; align-items: flex-start;">
-  {% if include.cont.rev == false %}
-  <img src="{{ include.cont.photo | relative_url }}" alt="description" width="{{ include.cont.width }}">
-  <div>
-    {{ include.cont.desc | markdownify}}
-  </div>
-  {% else %}
-  <div>
-    {{ include.cont.desc | markdownify}}
-  </div>
-  <img src="{{ include.cont.photo | relative_url }}" alt="description" width="{{ include.cont.width }}">
-  {% endif %}
+<div class="profile">
+  <img src="{{ include.cont.photo | relative_url }}" alt="description"
+      width="{{ include.cont.width }}" class=
+      {% if include.cont.rev == false %}
+        "profile-img-left"
+      {% else %}
+        "profile-img-right"
+      {% endif %}>
+  {{ include.cont.desc | markdownify }}
 </div>
