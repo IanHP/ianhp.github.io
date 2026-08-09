@@ -1,0 +1,18 @@
+
+<article class="page_top">
+
+    <!-- RIGHT COLUMN: floated link box -->
+    <aside class="page_top-linkbox">
+      <h2>Contents</h2>
+      <ul>
+         {% for item in include.data.contents %}
+            <li>{{forloop.index}}. <a href="/{{include.data.link}}#{{item.id}}">{{item.name}}</a></li>
+         {% endfor %}
+      </ul>
+    </aside>
+
+    <!-- LEFT COLUMN: your words, wrapping around the box -->
+    <h1>{{ include.data.title }}</h1>
+    {{ include.data.desc}}
+
+  </article>

@@ -1,0 +1,54 @@
+
+.page_top {
+  margin: 0 auto 20px;
+}
+
+/* Right column: the link box, floated so text wraps around it */
+.page_top-linkbox {
+  float: left;
+  width: 160px;
+  margin: 0 24px 8px 0;   /* gap on the left + below where text wraps */
+  border: 1px solid #a2a9b1;
+  background: #f8f9fa;
+  border-radius: 3px;
+  padding: 14px 16px;
+  font-size: 0.9rem;
+}
+
+.page_top-linkbox h2 {
+  margin: 0 0 10px;
+  font-size: 1rem;
+  text-align: center;
+  border-bottom: 1px solid #a2a9b1;
+  padding-bottom: 8px;
+}
+
+.page_top-linkbox ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.page_top-linkbox li {
+  padding: 5px 0;
+  border-bottom: 1px solid #eaecf0;
+}
+
+.page_top-linkbox li:last-child { border-bottom: none; }
+
+/* Left column: the text simply flows and wraps around the floated box */
+.page_top h1 {
+  margin-top: 0;
+  font-size: 1.9rem;
+  font-weight: 400;
+  padding-bottom: 6px;
+}
+
+.page_top p { margin: 0 0 1.1em; }
+
+/* clear the float so anything after the article sits below the box */
+.page_top::after {
+  content: "";
+  display: block;
+  clear: both;
+}
