@@ -1,8 +1,26 @@
+<figure class="credit {{ include.classes }}">
+
 {% if include.cont.credit %}
-<figure class="img-credited">
-    <img src= "{{ include.cont.photo }}" alt="Describe the photo here" class="adjust">
-    <figcaption>Photo Credit: <a class="white" href={{include.cont.credit_link}}>{{include.cont.credit}}</a></figcaption>
-</figure>
+    <img src= "{{ include.cont.photo }}" 
+        alt="Describe the photo here" 
+        {% if include.cont.width %}
+            style="width: {{ include.cont.width }}px; height: auto;"
+        {% else %}
+            class="adjust" 
+        {% endif %}>
+    <figcaption>
+        Photo Credit: <a class="white" 
+        href={{include.cont.credit_link}}>{{include.cont.credit}}</a>
+    </figcaption>
+
 {% else %}
-<img src= "{{ include.cont.photo }}" alt="Describe the photo here" class="img-base">
+    <img src= "{{ include.cont.photo }}" 
+        alt="Describe the photo here" 
+        {% if include.cont.width %}
+            style="width: {{ include.cont.width }}px; height: auto;"
+        {% else %}
+            class="adjust" 
+        {% endif %}>
+
 {% endif %}
+</figure>

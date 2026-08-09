@@ -1,22 +1,31 @@
-.img-credited {
+.credit {
   position: relative;
-  display: block;
-  width: fit-content;
-  margin: 0 auto;
-  border-radius: 4px;
+  display: inline-block;   /* shrink-wraps to whatever image is inside */
+  margin: 0;
 }
-.img-credited img {
-  display: block;
-  width: 100%;
+
+.credit.img-left {
+  float: left;
+  margin: 0 20px 10px 0;   /* space to the right and below */
+}
+.credit.img-right {
+  float: right;
+  margin: 0 0 10px 20px;   /* space to the left and below */
+}
+
+
+.credit img {
+  display: block;          /* kills baseline gap; container matches image exactly */
+  max-width: 100%;         /* stays responsive */
   height: auto;
-  border-radius: 4px;
 }
-.img-credited figcaption {
+
+.credit figcaption {
   position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.25);
+  background: rgba(0, 0, 0, 0.35);
   color: #fff;
   font-size: 0.75rem;
   padding: 4px 8px;

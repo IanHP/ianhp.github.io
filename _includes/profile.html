@@ -8,12 +8,10 @@
   @param {bool} rev - if the profile should be in reverse order or not
 -->
 <div class="profile">
-  <img src="{{ include.cont.photo | relative_url }}" alt="description"
-      width="{{ include.cont.width }}" class=
-      {% if include.cont.rev == false %}
-        "profile-img-left"
-      {% else %}
-        "profile-img-right"
-      {% endif %}>
+  {% if include.cont.rev == false %}
+    {% include img.html cont=include.cont classes="img-left" %}
+  {% else %}
+    {% include img.html cont=include.cont classes="img-right" %}
+  {% endif %}
   {{ include.cont.desc | markdownify }}
 </div>
