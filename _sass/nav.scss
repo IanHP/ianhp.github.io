@@ -17,14 +17,14 @@ nav a::after {
   overflow: hidden;
   visibility: hidden;
 }
-.nav-title {
+nav h2 {
   margin: 0;
   margin-right: auto;
 }
-.nav-current {
+nav .current {
     color: green;
 }
-.nav-current:hover {
+nav .current:hover {
     color: green;
     font-weight: bold;
 }

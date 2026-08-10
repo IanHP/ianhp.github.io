@@ -2,13 +2,17 @@
 <!-- 
   @component Navigation Bar
   @description Creates a navigation bar in top right of screen
+  @data - comes from navigation.yml
+    List of items, one for each link at the top
+    @param {html link} link - where it links to
+    @param {string} name - name of subsection
 -->
 <nav>
-  <h2 class="nav-title">
+  <h2>
   Ian Herzog-Pohl's Portfolio Website
   </h2>
   {% for item in site.data.navigation %}
-    <a href="{{ item.link }}" data-name="{{ item.name }}"{% if item.link == page.url %} class="nav-current" {% endif %}>
+    <a href="{{ item.link }}" data-name="{{ item.name }}"{% if item.link == page.url %} class="current" {% endif %}>
       {{ item.name }}
     </a>
   {% endfor %}
