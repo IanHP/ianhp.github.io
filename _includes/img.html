@@ -1,6 +1,16 @@
-<figure class="credit {{ include.classes }}">
 
-{% if include.cont.credit %}
+<!-- 
+  @component Image
+  @description Creates an image with lots of options!
+  @param {string} classes - css classes the figure should have
+  @param {yml data} cont - all data is held inside of a yml file
+    @param {photo link} - link to photo in /assets
+    @param {int} width - (opt) can specify the width of image. 
+        Otherwise max size of row (where same height of other images)
+    @param {string} credit - (opt) name of person credited for image
+    @param {link} credit_link - (req if ^ used) link person credited goes too
+-->
+<figure class="credit {{ include.classes }}">
     <img src= "{{ include.cont.photo }}" 
         alt="Describe the photo here" 
         {% if include.cont.width %}
@@ -8,19 +18,10 @@
         {% else %}
             class="adjust" 
         {% endif %}>
+{% if include.cont.credit %}
     <figcaption>
         Photo Credit: <a class="white" 
         href={{include.cont.credit_link}}>{{include.cont.credit}}</a>
     </figcaption>
-
-{% else %}
-    <img src= "{{ include.cont.photo }}" 
-        alt="Describe the photo here" 
-        {% if include.cont.width %}
-            style="width: {{ include.cont.width }}px; height: auto;"
-        {% else %}
-            class="adjust" 
-        {% endif %}>
-
 {% endif %}
 </figure>

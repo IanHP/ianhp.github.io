@@ -1,25 +1,35 @@
+
+// for img.html
+// overall class
 .credit {
   position: relative;
-  display: inline-block;   /* shrink-wraps to whatever image is inside */
+  display: inline-block;
   margin: 0;
 }
-
+// secondary class: puts img to left
 .credit.img-left {
   float: left;
-  margin: 0 20px 10px 0;   /* space to the right and below */
+  margin: 0 20px 10px 0;
 }
+// secondary class: puts img to right
 .credit.img-right {
   float: right;
-  margin: 0 0 10px 20px;   /* space to the left and below */
+  margin: 0 0 10px 20px;
 }
-
-
+// secondary class: puts img to middle
+.credit.img-center {
+  display: block;
+  width: fit-content;
+  margin: 0 auto; 
+  float: none;             
+}
+// for img
 .credit img {
-  display: block;          /* kills baseline gap; container matches image exactly */
-  max-width: 100%;         /* stays responsive */
+  display: block;         
+  max-width: 100%;         
   height: auto;
 }
-
+// for caption
 .credit figcaption {
   position: absolute;
   bottom: 0;

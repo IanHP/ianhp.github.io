@@ -10,7 +10,7 @@
 -->
 <div class="middle_photo">
   <div class="column">
-  {% include img.html cont=include.cont %}
+  {% include img.html cont=include.cont classes="img-center" %}
     <h1><a href="{{ include.cont.link}}">{{ include.cont.title}}</a></h1>
     <div>
       {{ include.cont.desc | markdownify}}
