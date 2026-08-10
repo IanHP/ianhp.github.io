@@ -2,10 +2,9 @@
 <!-- 
   @component Profile Subsection
   @description Puts image on left screen, puts text on right wrapping around
-  @param {image path} image - image placed on right
-  @param {HTML} content - text to right of image
-  @param {int} width - how wide the photo is meant to be
-  @param {bool} rev - if the profile should be in reverse order or not
+  @param {yml data} cont - all data is held inside of a yml file
+    @param {image data} - has data for image. More info in img.html
+    @param {markdown} desc - text to right of image
 -->
 <div class="profile">
   {% if include.cont.rev == false %}
