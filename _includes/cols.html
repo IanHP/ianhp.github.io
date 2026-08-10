@@ -12,11 +12,11 @@
   {% for item in {{include.cols}} %}
     <div class="col">
       {% if item.type == "small_photo" %}
-      {% include small_photo.html cont=item %}
+      {% include col_types/small_photo.html cont=item %}
       {% elsif item.type == "middle_photo" %}
-      {% include middle_photo.html cont=item %}
+      {% include col_types/middle_photo.html cont=item %}
       {% elsif item.type == "profile" %}
-      {% include profile.html cont=item %}
+      {% include col_types/profile.html cont=item %}
       
       {% endif %}
     </div>

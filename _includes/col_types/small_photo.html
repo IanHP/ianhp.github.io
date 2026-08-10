@@ -7,16 +7,16 @@
   @param {string} title - the title of subsection
   @param {html} desc - the dsecription of subsection
 -->
-<article class="small_img-main">
+<article class="small_photo">
 
   <!-- 1. Photo -->
   {% include img.html cont=include.cont %}
 
   <!-- 2. Big descriptor title -->
-  <h1 class="small_img-title"><a href="{{ include.cont.link }}">{{ include.cont.title }}</a></h1>
+  <h1><a href="{{ include.cont.link }}">{{ include.cont.title }}</a></h1>
 
   <!-- 3. Text beneath -->
-  <div class="small_img-description">
+  <div>
     {{ include.cont.desc | markdownify }}
   </div>
 

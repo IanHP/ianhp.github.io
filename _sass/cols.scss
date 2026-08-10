@@ -1,0 +1,93 @@
+
+// for col.html
+// Container of all columns
+.cols {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+}
+// Specific column
+.cols .col {
+  flex: 1;
+}
+
+
+// For col_types/small_photo.html
+// General class
+.small_photo {
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+// for title
+.small_photo h1 {
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  margin: 10px 0 0;
+  text-align: center;
+  height: 60px;
+}
+.small_photo h1::after {
+  content: "";
+  display: block;
+  width: 56px;
+  height: 3px;
+  margin-top: 20px;
+}
+// for description
+.small_photo div {
+  margin-top: 12px;
+  text-align: center;
+}
+.small_photo div p {
+  margin: 0 0 1.2em;
+}
+
+
+// for col_types/middle_photo.html
+// general
+.middle_photo {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 48px 24px;
+  line-height: 1.7;
+  background: #fdfdfb; 
+  display: flex;
+  justify-content: center;
+}
+// create column in middle
+.middle_photo .column {
+  box-sizing: border-box;
+  width: 50%;
+}
+// title
+.middle_photo h1 {
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  margin: 10px 0 0;
+  text-align: center;
+  height: 60px;
+}
+.middle_photo h1::after {
+  content: "";
+  display: block;
+  width: 56px;
+  height: 3px;
+  background: var(--ink);
+  margin-top: 20px;
+}
+// description
+.middle_photo div {
+  margin-top: 12px;
+  text-align: center;
+}
+.middle_photo div p {
+  margin: 0 0 1.2em;
+}
+
+
+// for profile
+.profile::after {
+  content: "";
+  display: block;
+  clear: both;
+}
