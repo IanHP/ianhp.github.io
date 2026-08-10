@@ -1,8 +1,12 @@
-.col-main {
+
+// Holds CSS for col.html
+// Container of all columns
+.cols {
   display: flex;
   gap: 40px;
-  align-items: flex-start;   /* tops line up instead of stretching */
+  align-items: flex-start;
 }
-.col-main .col {
-  flex: 1;                   /* each column takes an equal half */
+// Specific column
+.cols .col {
+  flex: 1;
 }

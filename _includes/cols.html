@@ -1,4 +1,14 @@
-<div class="col-main photo-row">
+
+<!-- 
+  @component Columns
+  @description Will take in a list of data to be displayed in each column
+    and place them in equal columns
+  @param {data path} cols - holds all information about what is displayed
+    each entry in the list is a different column
+    type: the type of columns
+    For more information look in that specific column type
+-->
+<div class="cols photo-row">
   {% for item in {{include.cols}} %}
     <div class="col">
       {% if item.type == "small_photo" %}
