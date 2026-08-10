@@ -1,5 +1,5 @@
 
-<!-- 
+{% comment %} 
   @component Middle Photo Subsection
   @description Puts image in middle, with hyperlink title and text underneath
   @param {yml data} cont - all data is held inside of a yml file
@@ -7,7 +7,8 @@
     @param {string} title - title of subsection
     @param {html link} link - where title links to
     @param {markdown} desc - text to right of image
--->
+{% endcomment %}
+
 <div class="middle_photo">
   <div class="column">
   {% include img.html cont=include.cont classes="img-center" %}

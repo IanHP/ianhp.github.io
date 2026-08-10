@@ -1,5 +1,5 @@
 
-<!-- 
+{% comment %} 
   @component Image
   @description Creates an image with lots of options!
   @param {string} classes - css classes the figure should have
@@ -9,7 +9,8 @@
         Otherwise max size of row (where same height of other images)
     @param {string} credit - (opt) name of person credited for image
     @param {link} credit_link - (req if ^ used) link person credited goes too
--->
+{% endcomment %}
+
 <figure class="credit {{ include.classes }}">
     <img src= "{{ include.cont.photo }}" 
         alt="Describe the photo here" 

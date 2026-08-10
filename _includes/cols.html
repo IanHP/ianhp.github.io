@@ -1,5 +1,5 @@
 
-<!-- 
+{% comment %} 
   @component Columns
   @description Will take in a list of data to be displayed in each column
     and place them in equal columns
@@ -7,7 +7,8 @@
     each entry in the list is a different column
     type: the type of columns
     For more information look in that specific column type
--->
+{% endcomment %}
+
 <div class="cols photo-row">
   {% for item in {{include.cols}} %}
     <div class="col">

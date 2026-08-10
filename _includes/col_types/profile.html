@@ -1,11 +1,12 @@
 
-<!-- 
+{% comment %} 
   @component Profile Subsection
   @description Puts image on left screen, puts text on right wrapping around
   @param {yml data} cont - all data is held inside of a yml file
     @param {image data} - has data for image. More info in img.html
     @param {markdown} desc - text to right of image
--->
+{% endcomment %}
+
 <div class="profile">
   {% if include.cont.rev == false %}
     {% include img.html cont=include.cont classes="img-left" %}

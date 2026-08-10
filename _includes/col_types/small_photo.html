@@ -1,5 +1,5 @@
 
-<!-- 
+{% comment %} 
   @component Small Photo + Desc Subsection
   @description Image, clickable title below, then description
   @param {yml data} cont - all data is held inside of a yml file
@@ -7,16 +7,20 @@
     @param {string} title - title of subsection
     @param {html link} link - where title links to
     @param {markdown} desc - text beneath image
--->
+{% endcomment %}
+
 <article class="small_photo">
 
-  <!-- 1. Photo -->
+  {% comment %} 1. Photo {% endcomment %}
+
   {% include img.html cont=include.cont classes="img-center" %}
 
-  <!-- 2. Big descriptor title -->
+  {% comment %} 2. Big descriptor title {% endcomment %}
+
   <h1><a href="{{ include.cont.link }}">{{ include.cont.title }}</a></h1>
 
-  <!-- 3. Text beneath -->
+  {% comment %} 3. Text beneath {% endcomment %}
+
   <div>
     {{ include.cont.desc | markdownify }}
   </div>

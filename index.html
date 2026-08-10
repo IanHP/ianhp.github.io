@@ -3,18 +3,22 @@ title: Home
 layout: default
 ---
 
-<!-- The overall description + me photo -->
+{% comment %} The overall description + me photo {% endcomment %}
+
 {% include cols.html cols=site.data.main.row0 %}
 {% include simple/line.html %}
 
-<!-- Comp bio + Minecraft Programming -->
+{% comment %} Comp bio + Minecraft Programming {% endcomment %}
+
 {% include cols.html cols=site.data.main.row1 %}
 
-<!-- Music Journalism -->
+{% comment %} Music Journalism {% endcomment %}
+
 {% include cols.html cols=site.data.main.row2 %}
 {% include simple/line.html %}
 
-<!-- Current Projects -->
+{% comment %} Current Projects {% endcomment %}
+
 {% include simple/center_title.html title="Most Recent Projects" %}
 {% include cols.html cols=site.data.main.row3 %}
 {% include simple/line.html %}
