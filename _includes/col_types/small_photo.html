@@ -17,7 +17,14 @@
 
   {% comment %} 2. Big descriptor title {% endcomment %}
 
-  <h1><a href="{{ include.cont.link }}">{{ include.cont.title }}</a></h1>
+  
+  <h1>
+    {% if include.cont.link %}
+      <a href="{{ include.cont.link }}">{{ include.cont.title }}</a>
+    {% else %}
+      {{ include.cont.title }}
+    {% endif %}
+  </h1>
 
   {% comment %} 3. Text beneath {% endcomment %}
 
