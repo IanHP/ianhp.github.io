@@ -1,0 +1,10 @@
+
+{% comment %} 
+  @component Left Title + Line
+  @description Creates a title (h1) on the left of the page + line below
+  @param {string} title - the title to be displayed
+  @param {string} id - the id, used for hyperlinking to
+{% endcomment %}
+
+<h1 class="misc left_title" id="{{ include.id }}"> {{include.title}} </h1>
+<hr class="misc left_title_line">

@@ -13,5 +13,5 @@
   {% else %}
     {% include img.html cont=include.cont classes="img-right" %}
   {% endif %}
-  {{ include.cont.desc | markdownify }}
+  <div class="desc">{{ include.cont.desc | markdownify }}</div>
 </div>

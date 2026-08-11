@@ -1,0 +1,24 @@
+title: Minecraft Programming
+link: minecraft.html
+desc: |
+  My first large programming projects in high school were all inside of Minecraft, 
+  as it was an easy transition to go from a game I played to an environment I would
+  develop in. I mainly used an inbuilt, scripting language inside of the game called
+  "MCFunction" which was a relatively simple, yet suprisingly powerful programming 
+  language.
+
+  After starting with general "Minecraft Maps," I branched out into doing commission 
+  based work for Minecraft youtubers and Minecraft Bedrock which would allow me to 
+  make money for my work.
+
+  While I do not do much more anymore, lots of my largest projects are Minecraft based 
+  and is where I learned a lot about organizing large scale coding projects.
+contents:
+  - name: Minecraft Map Projects
+    id: maps
+  - name: Bedrock Marketplace Projects
+    id: bedrock
+  - name: Minecraft Youtuber Commissions
+    id: commissions
+  - name: Mapjam Projects
+    id: mapjams
