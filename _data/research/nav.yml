@@ -1,7 +1,17 @@
 title: Biology Research
 link: research.html
 desc: |
-  Biology research yippee! Its biology time :sunglasses:
+  My main interest, and future career aspiration, is in computational structural biology.
+  Structural biology is using molecular structures to determine the different molecule's 
+  function in the cell. The computational aspect involves using computational models of
+  these structures, running simulations or predicting how different molecules may interact.
+
+
+  I have personally worked on molecule simulations, which use newtonian and thermodynamic principles
+  to predict the motion of a protein in a cellular environment, often giving extra insight
+  onto the proteins function. I have also done structure based computer aided drug design (CADD)
+  which predcts potential small molecule drugs that can target and modify certain key proteins involved 
+  in disease.
 contents:
   - name: 2023
     id: 2023
