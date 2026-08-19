@@ -10,7 +10,7 @@
     After the mapjam, my friends and I worked on the map to get it ready for a real release  
     Find the map [here](https://www.planetminecraft.com/project/oceaneer/)  
 - type: "small_photo"
-  photo: "/assets/img/oceaneer.webp"
+  photo: "/assets/img/wall_ball.png"
   title: "Pig Ball"
   desc: | 
     Yeggs Mapjam #2 - August 2020 
@@ -18,7 +18,7 @@
     My second mapjam, I created a game where two teams of players must try to 
     hit a pig (which acts as a ball) into the opposing team's goal. 
 - type: "small_photo"
-  photo: "/assets/img/oceaneer.webp"
+  photo: "/assets/img/shroomin.png"
   title: "Shroomin'"
   desc: | 
     Vertex Spring Mapjam - March 2021 
@@ -26,7 +26,7 @@
     I created an puzzle game, where the player is found in a magical mushroom forest 
     and must solve puzzles in each zone using magical mushrooms to escape
 - type: "small_photo"
-  photo: "/assets/img/oceaneer.webp"
+  photo: "/assets/img/build_flip.png"
   title: "Build Flip"
   desc: | 
     Yeggs Holiday Jam - December 2021 
